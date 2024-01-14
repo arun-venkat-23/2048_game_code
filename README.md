@@ -61,7 +61,7 @@ void Board() {...}
 ```
 This function displays the current state of the game board, including the tiles and the score.
 
-7. main() Function
+#### main() Function
 ```
 int main() {...}
 ```
@@ -81,7 +81,9 @@ The code includes file handling operations to read and write player scores to a 
 
 #### Score Calculation
 
-<p> The score variable is initialized to 0 at the beginning of the game. When two tiles with the same value are merged, their values are added, and the result becomes the new value of the merged tile. For example, if two tiles with the value 2 are merged, the resulting tile will have a value of 4. The score is incremented by the value of the merged tile. <br>
+<p> The score variable is initialized to 0 at the beginning of the game. When two tiles with the same value are merged, their values are added, and the result becomes the new value of the merged tile. 
+    > For example, if two tiles with the value 2 are merged, the resulting tile will have a value of 4. 
+The score is incremented by the value of the merged tile. <br>
 
 The score keeps accumulating as the player continues to merge tiles during the game. When the player decides to end the game (ans is 'y'), the final score is displayed. The player is prompted to enter their name, and the input method of the Point class is used to associate the player's name with their score. The player's name and score are then written to a file (score.DAt) for record-keeping. </p>
 
