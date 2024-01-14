@@ -1,4 +1,4 @@
-####Sample Output:
+#### Sample Output:
 
 ![image](https://github.com/arun-venkat-23/2048_game_code/assets/137104589/ace8701f-0d0e-4f62-8b26-a89c177da66f)
 
